@@ -1,0 +1,5 @@
+
+{"questions": [ 
+{"question":"afficher le texte\"hello world\"","code":"[HOLE]\"hello world\";","reponse":"echo"},
+{"question" : "afficher la valeur de la vaiable $message","code":"echo \"hello world message vaut[HOLE]\";","reponse":"{$message}"}
+]}

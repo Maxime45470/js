@@ -1,0 +1,37 @@
+*{
+    color:black;
+}
+tr, td, th{
+    border:1px solid black;
+}
+
+.form-input label, .form-input input, .form-input select, .form-textarea label {
+    display: flex;
+    margin-left: 18%;
+}
+.form-textarea textarea{
+    width: 50%;
+    margin-top: 10px;
+    height: 150px;
+    display: flex;
+    resize: none;
+    margin-left: 18%;
+}
+
+.container-fluid {
+    border: 1px solid black;
+    margin: 40px;
+    border-radius: 20px;
+}
+
+#counter {
+    margin-left: 18%;
+}
+
+button {
+    margin-left: 18%;
+}
+
+
+
+

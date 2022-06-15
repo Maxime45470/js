@@ -1,0 +1,99 @@
+body
+{
+    background-color: #b6bdbb !important;
+    
+    background-attachment: relative;
+    background-repeat: no-repeat;
+    background-position: center 103px;
+}
+
+#container
+{
+    width: 1300px;
+    height: 600px;
+    border: 3px solid #000;
+    position: relative;
+    margin: auto auto;
+    background: #fff;
+}
+
+#score {
+    position: absolute;
+    top: 40%;
+    left: 37%;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Tapestry', cursive; 
+    padding-bottom: 10px;
+    background-color: #b6bdbb78;
+    
+}
+
+#rejouer {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    text-align: center;
+    font-family: 'Tapestry', cursive; 
+    margin-top: 0px;
+    background-color: #b6bdbb78;
+    border-radius: 10px;
+    
+    
+}
+
+#submit {
+    width: 300px;
+    height: 100px;
+    border-radius: 15px;
+    font-size: 35px;
+}
+
+#submit2 {
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 30px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#pseudo {
+    margin-left: 5px;
+    margin-top: 10px;
+    height: 24px;
+    
+}
+
+h1
+{
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px 2px 4px grey;
+    margin-bottom: 0px !important;
+    color: #000;
+    font-family: 'Ruslan Display', cursive;
+    margin-top: 10px;
+}
+
+.center {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 10px;
+}
+
+table {
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    font-size: 25px;
+    text-align: center;
+
+
+}
+
+
+td {
+    padding: 10px;
+    border: 1px solid #000 !important;
+    width: 100px;
+}

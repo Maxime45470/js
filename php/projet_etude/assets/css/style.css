@@ -1,0 +1,181 @@
+/* ------------RESET-------------  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* ----------HEADER---------- */
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 9vh;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid blue; */
+}
+.logo img{
+    height: 80px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+/* ----------NAV---------- */
+.nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 100px;
+}
+.nav li{
+    font-family: 'Tiro Kannada', serif;
+    margin: 15px;
+    font-size: 25px;
+    /* font-weight: bold */
+
+}
+.nav a:hover{
+    color:rgb(88, 191, 33);
+
+}
+.nav a.active{
+    color:rgb(88, 191, 33);
+}
+.nav a{
+    color: black;
+}
+.nonBurger{
+    display: none;
+}
+/* Sidenav menu */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: rgb(88, 191, 33);
+    padding-top: 60px;
+    transition: left 0.5s ease;
+  }
+  
+/* Sidenav menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #111;
+}
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+/* Active class */
+.sidenav.active {
+    left: 0;
+}
+/* Close btn */
+.sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+/* Icône burger */
+.burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 10px;
+}
+
+/* ----------MAIN---------- */
+main{
+    height: 70%;
+    background-color: rgb(241, 241, 241);
+}
+h1{
+    text-align: center;
+    font-family: 'Tiro Kannada', serif;
+    font-size: 40px;
+    color: rgb(88, 191, 33);
+    padding-top: 20px;
+}
+
+/* ----------FOOTER---------- */
+
+footer{
+    height: 20vh;
+    background-color: black;
+    color: rgb(188, 188, 188);
+    display: flex;
+    justify-content: space-evenly;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    align-items: center;
+    font-family: 'Tiro Kannada', serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+footer a{
+    color: rgb(188, 188, 188);
+}
+footer a:hover{
+    color: rgb(235, 235, 235);
+}
+.footerTitre{
+    color: white;
+    font-size: 20px;
+    font-family: 'Tiro Kannada', serif;
+    margin-bottom: 15px;
+}
+.footerCol2{
+    font-size: 35px;
+}
+.footerCol3 ul{
+    display: flex;
+}
+.footerCol3 li{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+/* ----------RESPONSIVE---------- */
+
+@media (min-width: 576px) { /* Small devices (landscape phones, 576px and up) */
+
+}
+@media (min-width: 768px) {/* Medium devices (tablets, 768px and up) */
+   
+}
+@media (min-width: 992px) {/* Large devices (desktops, 992px and up) */
+}
+@media (min-width: 1200px) {/* X-Large devices (large desktops, 1200px and up) */
+    .burger{
+          display: none;
+      }
+      .nonBurger{
+          display: block;
+      }
+
+}
+@media (min-width: 1400px) {/* XX-Large devices (larger desktops, 1400px and up) */
+
+}

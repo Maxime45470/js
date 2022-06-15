@@ -1,0 +1,34 @@
+[
+    {
+        "question" : "une variable commence par le symbole [HOLE] en PHP ",
+        "answer" : "$"
+    },
+    {
+        "question" : "quel est le symbole de fin de ligne en PHP ? [HOLE]",
+        "answer" : ";"
+    },
+    {
+        "question" : "quel est le symbole de début de commentaire monoligne en PHP ? [HOLE]",
+        "answer" : "//"
+    },
+    {
+        "question" : "quel est le symbole de début de commentaire multiligne en PHP ? [HOLE]",
+        "answer" : "/*"
+    },
+    {
+        "question" : "quel est le symbole de fin de commentaire multiligne en PHP ? [HOLE]",
+        "answer" : "*/"
+    },
+    {
+        "question" : "quel est le mot de début de condition en PHP ? [HOLE]",
+        "answer" : "if"
+    },
+    {
+        "question" : "quel est le mot de début de boucle en PHP ? [HOLE]",
+        "answer" : "for"
+    },
+    {
+        "question" : "avec quel instruction on itère sur un tableau ? [HOLE]",
+        "answer" : "foreach"
+    }
+]

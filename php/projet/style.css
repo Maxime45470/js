@@ -1,0 +1,56 @@
+
+
+.formulaire {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px black;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(196, 255, 220, 0.501);
+    
+}
+
+
+.formulaire2 {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px black;
+    width: 30%;
+    height: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(196, 255, 220, 0.501);
+}
+
+
+
+.insc {
+    text-align: center;
+}
+
+.name {
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(1, 97, 181, 0.553);
+    
+    
+}
+
+.titre {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

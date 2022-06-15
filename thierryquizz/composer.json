@@ -1,0 +1,14 @@
+{
+    "name": "greg/thierryquizz",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Greg"
+        }
+    ],
+    "require": {}
+}
